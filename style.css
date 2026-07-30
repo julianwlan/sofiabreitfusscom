@@ -7,10 +7,18 @@
 
 #top-row {
     height: 10rem;
+    grid-column: span 3;
     display: grid;
 
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(14, 1fr);
     gap: 1rem;
+    align-items: center;
+}
+
+#front-page {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
 }
 
@@ -21,11 +29,11 @@
 
 #top-row img:nth-child(1) {
     grid-column: span 2;
-    transform: scale(1.1);
+    transform: scale(0.8);
 }
 
 #top-row img:nth-child(2) {
-    transform: scale(0.9) scaleX(-1) rotate(-50deg);
+    transform: scale(0.6) scaleX(-1) rotate(-50deg);
     margin-top: 2rem;
 }
 
@@ -36,10 +44,35 @@
 
 #top-row img:nth-child(4) {
     grid-column: span 2;
-    transform: scale(0.9) rotate(-140deg) scaleX(-1);
+    transform: scale(0.7) rotate(-140deg) scaleX(-1);
 }
 
 #top-row img:nth-child(5) {
-    transform: scale(0.9);
+    transform: scale(0.6);
+    margin-top: -1rem;
+}
+
+#top-row img:nth-child(6) {
+    grid-column: span 2;
+    transform: scale(0.8);
+}
+
+#top-row img:nth-child(7) {
+    transform: scale(0.6) scaleX(-1) rotate(-50deg);
+    margin-top: 2rem;
+}
+
+#top-row img:nth-child(8) {
+    transform: rotate(180deg);
+    margin-bottom: 1rem;
+}
+
+#top-row img:nth-child(9) {
+    grid-column: span 2;
+    transform: scale(0.7) rotate(-100deg) scaleX(-1);
+}
+
+#top-row img:nth-child(10) {
+    transform: scale(0.5);
     margin-top: -1rem;
 }
