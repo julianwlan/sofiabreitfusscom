@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Host Grotesk", sans-serif;
+}
+
+#top-row {
+    height: 10rem;
+    display: grid;
+
+    grid-template-columns: repeat(10, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+
+#top-row img {
+    width: 100%;
+    height: auto;
+}
+
+#top-row img:nth-child(1) {
+    grid-column: span 2;
+    transform: scale(1.1);
+}
+
+#top-row img:nth-child(2) {
+    transform: scale(0.9) scaleX(-1) rotate(-50deg);
+    margin-top: 2rem;
+}
+
+#top-row img:nth-child(3) {
+    transform: rotate(-20deg) scaleX(-1);
+    margin-bottom: 1rem;
+}
+
+#top-row img:nth-child(4) {
+    grid-column: span 2;
+    transform: scale(0.9) rotate(-140deg) scaleX(-1);
+}
+
+#top-row img:nth-child(5) {
+    transform: scale(0.9);
+    margin-top: -1rem;
+}
