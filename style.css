@@ -7,7 +7,7 @@
 
 #bg-img {
     width: 100%;
-    opacity: 100%;
+    opacity: 80%;
 
     position: fixed;
     top: 0;
@@ -20,6 +20,21 @@
 
     z-index: -999;
 }
+
+#nav-bar {
+    margin: 2rem auto;
+    width: 90%;
+    background-color: black;
+    color: white;
+    height: 3rem;
+    border-radius: 2rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 
 #top-row {
     height: 10rem;
